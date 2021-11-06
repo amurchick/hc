@@ -4,12 +4,13 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/brutella/hc/hap"
-	"github.com/brutella/hc/log"
 	"image"
 	"image/jpeg"
 	"io/ioutil"
 	"net/http"
+
+	"github.com/amurchick/hc/hap"
+	"github.com/amurchick/hc/log"
 )
 
 type GetImageFunc func(width, height uint) (*image.Image, error)

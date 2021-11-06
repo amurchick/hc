@@ -2,8 +2,9 @@ package golang
 
 import (
 	"bytes"
-	"github.com/brutella/hc/gen"
 	"text/template"
+
+	"github.com/amurchick/hc/gen"
 )
 
 // CatsStructTemplate is template for a categories struct.

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/brutella/hc/service"
+	"github.com/amurchick/hc/service"
 )
 
 var info = Info{

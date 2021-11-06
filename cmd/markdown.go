@@ -1,3 +1,4 @@
+//go:build ignore
 // +build ignore
 
 // Creates Markdown files to summarize all available HomeKit service and characteristic types.
@@ -6,15 +7,16 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/brutella/hc/gen"
-	"github.com/brutella/hc/gen/markdown"
 	"io/ioutil"
 	"log"
 	"os"
 	"path/filepath"
+
+	"github.com/amurchick/hc/gen"
+	"github.com/amurchick/hc/gen/markdown"
 )
 
-var LibPath = os.ExpandEnv("$GOPATH/src/github.com/brutella/hc")
+var LibPath = os.ExpandEnv("$GOPATH/src/github.com/amurchick/hc")
 var GenPath = filepath.Join(LibPath, "gen")
 var MetadataPath = filepath.Join(GenPath, "metadata.json")
 var SvcFilePath = filepath.Join(LibPath, "service/README.md")

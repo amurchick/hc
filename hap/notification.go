@@ -3,12 +3,13 @@ package hap
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/brutella/hc/accessory"
-	"github.com/brutella/hc/characteristic"
-	"github.com/brutella/hc/hap/data"
 	"io/ioutil"
 	"net/http"
 	"strings"
+
+	"github.com/amurchick/hc/accessory"
+	"github.com/amurchick/hc/characteristic"
+	"github.com/amurchick/hc/hap/data"
 )
 
 // NewCharacteristicNotification returns an notification response for a characteristic from an accessory.

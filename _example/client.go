@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/brutella/hc/db"
-	"github.com/brutella/hc/hap"
-	"github.com/brutella/hc/hap/pair"
-	"github.com/brutella/hc/log"
 	"io"
 	"net/http"
+
+	"github.com/amurchick/hc/db"
+	"github.com/amurchick/hc/hap"
+	"github.com/amurchick/hc/hap/pair"
+	"github.com/amurchick/hc/log"
 )
 
 func pairSetup(b io.Reader) (io.Reader, error) {

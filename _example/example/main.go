@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/brutella/hc"
-	"github.com/brutella/hc/accessory"
-	"github.com/brutella/hc/log"
+	"github.com/amurchick/hc"
+	"github.com/amurchick/hc/accessory"
+	"github.com/amurchick/hc/log"
 
 	"time"
 )

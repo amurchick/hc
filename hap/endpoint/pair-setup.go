@@ -1,12 +1,12 @@
 package endpoint
 
 import (
-	"github.com/brutella/hc/db"
-	"github.com/brutella/hc/event"
-	"github.com/brutella/hc/hap"
-	"github.com/brutella/hc/hap/pair"
-	"github.com/brutella/hc/log"
-	"github.com/brutella/hc/util"
+	"github.com/amurchick/hc/db"
+	"github.com/amurchick/hc/event"
+	"github.com/amurchick/hc/hap"
+	"github.com/amurchick/hc/hap/pair"
+	"github.com/amurchick/hc/log"
+	"github.com/amurchick/hc/util"
 
 	"io"
 	"net/http"

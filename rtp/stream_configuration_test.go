@@ -2,9 +2,10 @@ package rtp
 
 import (
 	"fmt"
-	"github.com/brutella/hc/characteristic"
-	"github.com/brutella/hc/tlv8"
 	"testing"
+
+	"github.com/amurchick/hc/characteristic"
+	"github.com/amurchick/hc/tlv8"
 )
 
 func TestSelectedStreamConfiguration(t *testing.T) {

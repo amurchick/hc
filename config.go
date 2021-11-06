@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/brutella/hc/util"
+	"github.com/amurchick/hc/util"
 	"github.com/xiam/to"
 )
 

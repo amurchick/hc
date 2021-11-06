@@ -1,10 +1,11 @@
 package hap
 
 import (
-	"github.com/brutella/hc/characteristic"
-	"github.com/brutella/hc/crypto"
 	"net"
 	"sync"
+
+	"github.com/amurchick/hc/characteristic"
+	"github.com/amurchick/hc/crypto"
 )
 
 // Session contains objects (encrypter, decrypter, pairing handler,...) used to handle the data communication.

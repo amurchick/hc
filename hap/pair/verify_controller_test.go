@@ -1,10 +1,11 @@
 package pair
 
 import (
-	"github.com/brutella/hc/db"
-	"github.com/brutella/hc/hap"
-	"github.com/brutella/hc/util"
 	"testing"
+
+	"github.com/amurchick/hc/db"
+	"github.com/amurchick/hc/hap"
+	"github.com/amurchick/hc/util"
 )
 
 // Tests the pairing key verification

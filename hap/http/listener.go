@@ -1,7 +1,7 @@
 package http
 
 import (
-	"github.com/brutella/hc/hap"
+	"github.com/amurchick/hc/hap"
 
 	"net"
 )

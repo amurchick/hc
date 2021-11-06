@@ -1,3 +1,4 @@
+//go:build ignore
 // +build ignore
 
 // Creates swift code for all HomeKit service and characteristic types and logs
@@ -7,15 +8,16 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/brutella/hc/gen"
-	"github.com/brutella/hc/gen/swift"
 	"io/ioutil"
 	"log"
 	"os"
 	"path/filepath"
+
+	"github.com/amurchick/hc/gen"
+	"github.com/amurchick/hc/gen/swift"
 )
 
-var LibPath = os.ExpandEnv("$GOPATH/src/github.com/brutella/hc")
+var LibPath = os.ExpandEnv("$GOPATH/src/github.com/amurchick/hc")
 var GenPath = filepath.Join(LibPath, "gen")
 var MetadataPath = filepath.Join(GenPath, "metadata.json")
 

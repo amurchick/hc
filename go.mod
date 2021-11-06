@@ -1,4 +1,4 @@
-module github.com/brutella/hc
+module github.com/amurchick/hc
 
 require (
 	github.com/brutella/dnssd v1.2.0
